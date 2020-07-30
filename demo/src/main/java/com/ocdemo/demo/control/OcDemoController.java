@@ -12,4 +12,11 @@ public class OcDemoController {
 		return "Started...!!!";
 	}
 	
+	@GetMapping("/first")
+	public String first() {
+		return "First...!!!";
+	}
+	
+	
+	
 }
