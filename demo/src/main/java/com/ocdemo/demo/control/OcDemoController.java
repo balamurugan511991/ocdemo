@@ -9,7 +9,7 @@ public class OcDemoController {
 	
 	@GetMapping("/")
 	public String home() {
-		return "Started...!!!";
+		return "Started Demo...!!!";
 	}
 	
 	@GetMapping("/first")
